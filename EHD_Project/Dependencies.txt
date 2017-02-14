@@ -1,0 +1,54 @@
+sudo apt-get install gfortran
+
+------------------------------------------------------------
+Prerequisite:
+
+sudo apt-get install build-essential gfortran libatlas-base-dev python-pip python-dev
+sudo pip install --upgrade pip
+
+Actual packages:
+
+sudo pip install numpy
+sudo pip install scipy
+
+Optional packages:
+
+sudo pip install matplotlib   OR  sudo apt-get install python-matplotlib
+sudo pip install -U scikit-learn
+sudo pip install pandas
+----------------------------------------------------------------
+
+sudo pip install numpy
+sudo pip install pandas
+
+
+
+sudo pip install scipy
+sudo pip install -U scikit-learn
+
+Pickle is already installed in python
+
+sudo pip install pydub
+sudo pip install simplejson
+sudo apt-get install python-tk   -> another dependency
+
+
+----------------------------------------------
+sudo add-apt-repository ppa:mc3man/trusty-media
+
+And confirm the following message by pressing <enter>:
+
+Also note that with apt-get a sudo apt-get dist-upgrade is needed for initial setup & with some package upgrades
+More info: https://launchpad.net/~mc3man/+archive/ubuntu/trusty-media
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+Update the package list.
+
+sudo apt-get update
+sudo apt-get dist-upgrade
+
+Now FFmpeg is available to be installed with apt:
+
+sudo apt-get install ffmpeg
+
+-------------------------------------

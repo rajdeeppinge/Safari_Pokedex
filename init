@@ -1,0 +1,13 @@
+import subprocess
+import time
+print 'Command1'
+subprocess.call('sudo service hostapd start',shell=True)
+print 'Command2'
+subprocess.call('sudo serivce isc-dhcp-server start',shell=True)
+print 'All commands Completed'
+
+
+import time
+import subprocess
+time.sleep(2)
+subprocess.call('sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf',shell=True)
