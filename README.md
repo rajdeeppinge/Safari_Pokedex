@@ -1,7 +1,7 @@
 # Safari_Pokedex
 
-In a forest safari, a variety of sounds of different animals and birds can be heard all around, but it is hard 2016)
-to identify which animal is around, only based on the sound heard inside the vehicle. When, an animal is Team Size - 5
+In a forest safari, a variety of sounds of different animals and birds can be heard all around, but it is difficult
+to identify which animal is around, only based on the sound heard inside the vehicle. When, an animal is
 nearby and makes a sound, this IoT application aims to identify the animal based on its sound using a
 Raspberry Pi. It is trained with available data-set using Random Forest Classification machine learning
 algorithm. Upon identification of animal, the module broadcasts its information in real time to the
